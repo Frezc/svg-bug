@@ -1,5 +1,4 @@
 const path = require('path');
-const DebugPlugin = require('./DebugPlugin');
 const SpriteLoaderPlugin = require('svg-sprite-loader/plugin');
 
 module.exports = {
@@ -26,5 +25,5 @@ module.exports = {
       }
     ]
   },
-  plugins: [new SpriteLoaderPlugin(), new DebugPlugin()]
+  plugins: [new SpriteLoaderPlugin()]
 };
